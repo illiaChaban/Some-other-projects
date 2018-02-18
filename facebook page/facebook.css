@@ -11,7 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: rgb(241, 238, 238)
+    background-color: rgb(241, 238, 238);
+    
 }
 
 h5 {
@@ -36,7 +37,9 @@ header {
     background: rgb(29, 117, 175);
     color: white;
     padding-top: 8px;
-    padding-bottom: 2px
+    padding-bottom: 2px;
+    position: fixed;
+    z-index: 1;
 }
 
 .space {
@@ -75,6 +78,10 @@ li {
 .middle {
     min-width: 350px;
     flex: 1;
+}
+
+.top-margin {
+    margin-top: 45px;
 }
 
 .inline {
